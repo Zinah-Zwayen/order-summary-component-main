@@ -36,6 +36,7 @@ body{
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    box-shadow: 1px 1px 50px var(--Desaturated-blue);
 }
 .hero-image img{
     width: 100%;
@@ -83,13 +84,13 @@ body{
 .plan{
     margin-top: 10px;
 }
-h5:first-child{
+h4{
     color: var(--Dark-blue);
     font-weight: 900;
     font-size: 14px;
 }
 
-h5:last-child{
+h5{
     color: var(--Desaturated-blue);
     font-weight: 400;
 }
@@ -102,9 +103,15 @@ h5:last-child{
     text-decoration: underline;
 }
 
+.middle a:hover{
+    opacity:0.75;
+    cursor: pointer;
+}
+
 .button{
     display: flex;
     justify-content: center;
+    box-shadow: 1px 1px 50px var(--Pale-blue);
 }
 
 .pay{
@@ -122,8 +129,7 @@ h5:last-child{
 }
 
 .pay:hover{
-    background-color: hsla(245, 75%, 52%, 60%);
-    border-color: hsla(245, 75%, 52%, 60%);
+    opacity:0.75;
     cursor: pointer;
 }
 
@@ -137,6 +143,12 @@ div a{
     font-weight: 700;
     font-size: 15px;
 }
+
+div a:hover{
+    opacity:0.75;
+    cursor: pointer;
+}
+
 .attribution {
     display: flex;
     align-items: center;
