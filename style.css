@@ -85,15 +85,16 @@ body{
 .plan{
     margin-top: 10px;
 }
-h4{
+h2{
     color: var(--Dark-blue);
     font-weight: 900;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
-h5{
+h3{
     color: var(--Desaturated-blue);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .middle a{
